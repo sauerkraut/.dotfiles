@@ -1,0 +1,17 @@
+#FT232
+ATTRS{idProduct}=="6014", ATTRS{idVendor}=="0403", MODE="666", GROUP="plugdev"
+
+#FT2232
+ATTRS{idProduct}=="6010", ATTRS{idVendor}=="0403", MODE="666", GROUP="plugdev"
+
+#FT230X
+ATTRS{idProduct}=="6015", ATTRS{idVendor}=="0403", MODE="666", GROUP="plugdev"
+
+#STLINK V1
+ATTRS{idProduct}=="3744", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
+
+#STLINK V2
+ATTRS{idProduct}=="3748", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
+
+#STLINK V2 Nucleo Boards
+ATTRS{idProduct}=="374b" ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
